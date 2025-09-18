@@ -8,6 +8,7 @@ int main(int argc, char *argv[]) {
 	char c;
 	int i;
 	
+	
 	printf("input a number :");
 	scanf("%c", &c);
 	
