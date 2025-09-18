@@ -1,21 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+int main() {
+    char c;
+    printf("input an alphabet: ");
+    scanf("%c", &c);
 
-int main(int argc, char *argv[]) {
-	
-	char c;
-	int i;
-	
-	
-	printf("input a number :");
-	scanf("%c", &c);
-	
-	i='c'-'0';      //c에 저장된 문자 값을 숫자로 변환하는 식 작성 
-	printf("The input number is %i\n", i);
+    char next_char = c + 1;
 
-	
-	return 0;
+    printf("The next character is %c\n", next_char);  // 문자로 출력
+    return 0;
 }
 
