@@ -2,13 +2,24 @@
 #include <stdlib.h>
 
 int main() {
-    char c;
-    printf("input an alphabet: ");
-    scanf("%c", &c);
+	int ja, mo;
+	
+	printf("enter bunja");
+	scanf("%d", &ja);
+	
+	printf("enter bunmo");
+	scanf("%d",&mo);
+	
+	printf("the result is %f\n", (float)ja/mo);
+	
+	return 0;
+   
 
-    char next_char = c + 1;
 
-    printf("The next character is %c\n", next_char);  // 문자로 출력
-    return 0;
+
+
+
+
+
 }
 
